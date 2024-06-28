@@ -1,0 +1,18 @@
+{
+  "name": "backend-ml",
+  "version": "1.0.0",
+  "description": "API ML",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/server.js",
+    "start-dev": "node src/server.js"
+  },
+  "author": "Muhammad Yusuf Affandy",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.7.0",
+    "@hapi/hapi": "^21.3.9",
+    "@tensorflow/tfjs-node": "^4.19.0",
+    "dotenv": "^16.4.5"
+  }
+}
